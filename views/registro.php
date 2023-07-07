@@ -25,20 +25,23 @@
 		<main>
 			<section class="flex-container">
     			<div class="flex1"> </div>
-        		<form class="flex2" method="POST" autocomplete="off" id="loginForm" action="/Login/enter">
+        		<form class="flex2" method="POST" autocomplete="off" id="loginForm" action="/registro/add">
     				<div style="margin: 10px;">
             			<label>Nombre:</label>
-            			<input type="text" name="nombre" id="email" required>
+            			<input type="text" name="displayname" id="email" required>
             			<br>
-            			<label for="password">Password:</label>
+            			<label >Password:</label>
             			<input type="password" name="password" id="password" required>
+						<br>
+            			<label >Telefono:</label>
+            			<input type="password" name="password" id="password" required>
+						<br>
+						<label >Email:</label>
+            			<input type="email" name="email"  required>
         			</div>
         			
         			<div class="centrado">
         				<input type="submit" class="button" name="login" value="LogIn">
-        			</div>
-        			<div class="derecha">
-        				<a href="/Forgotpassword">Olvidé mi clave</a>
         			</div>
         			
         		</form>
