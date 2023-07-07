@@ -31,17 +31,17 @@
             			<input type="text" name="displayname" id="email" required>
             			<br>
             			<label >Password:</label>
-            			<input type="password" name="password" id="password" required>
+            			<input type="password" name="password" required>
 						<br>
             			<label >Telefono:</label>
-            			<input type="password" name="password" id="password" required>
+            			<input type="text" name="phone"  required>
 						<br>
 						<label >Email:</label>
             			<input type="email" name="email"  required>
         			</div>
         			
         			<div class="centrado">
-        				<input type="submit" class="button" name="login" value="LogIn">
+        				<input type="submit" class="button" name="registro" value="LogIn">
         			</div>
         			
         		</form>

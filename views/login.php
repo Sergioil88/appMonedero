@@ -25,11 +25,8 @@
 		<main>
 			<section class="flex-container">
     			<div class="flex1"> </div>
-        		<form class="flex2" method="POST" autocomplete="off" id="loginForm" action="/Login/enter">
-        			
-        			<h2>Acceso a la aplicación</h2>
-    				<p>Introduce tus datos en el formulario para identificarte.</p>
-    		
+        		<form class="flex2" method="POST" autocomplete="off" id="loginForm" action="/Login/enter">       			
+        			<h2>LogIn</h2>
     				<div style="margin: 10px;">
             			<label for="email">email:</label>
             			<input type="email" name="user" id="email" required>
