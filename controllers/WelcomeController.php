@@ -13,8 +13,11 @@
         
         // método responsable de mostrar la portada
         public function index(){
-            $this->loadView('welcome');
+            if(!Login::user()==null){
+                $factura= new FacturaController();
+                $factura->list();
+            } else{
+                $this->loadView('welcome');
+            }
         }
-        
     }
-

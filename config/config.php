@@ -32,6 +32,8 @@ define('AUTOLOAD_DIRECTORIES',  [
 define('APP_NAME','Gastos'); // Título de la aplicación.
 define('APP_TYPE', 'WEB');                // Tipo de aplicación: WEB o API.
 
+define('ADMIN_EMAIL','sergio.izqui@gmail.com');
+
 // Controlador y método por defecto (solamente para APP_TYPE WEB).
 define('DEFAULT_CONTROLLER', 'WelcomeController');
 define('DEFAULT_METHOD', 'index');
@@ -117,6 +119,8 @@ define('SGDB','mysql');        // Driver que debe usar PDO (solamente para PDO).
 //  - Debe usar el trait Autorizable.
 
 define('USER_PROVIDER', 'User');   // La única opción incluida es User.
+
+
 
 // Roles para los usuarios. Podemos crear o eliminar roles según las necesidades.
 define('USER_ROLES', [

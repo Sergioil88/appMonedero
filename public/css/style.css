@@ -1,4 +1,4 @@
-/* 
+ /* 
 	FICHERO CON ESTILO PRINCIPAL DE FASTLIGHT
 	
 	Autor: Robert Sallent
@@ -303,6 +303,17 @@ textarea{
 	margin: 6px;
 	border-radius: 5px;
 	background-color: rgb(60, 100, 160);
+	white-space: nowrap;
+	display: inline-block;
+	cursor: pointer;
+}
+.buttonrojo{
+	color: white;
+	border: solid 2px rgb(192, 24, 24);
+	padding: 6px 20px;
+	margin: 6px;
+	border-radius: 5px;
+	background-color: rgb(192, 24, 24);
 	white-space: nowrap;
 	display: inline-block;
 	cursor: pointer;
